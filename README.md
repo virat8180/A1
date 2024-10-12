@@ -1,23 +1,7 @@
 # Image Processing From CSV
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Running the Application](#running-the-application)
-- [API Documentation](#api-documentation)
-  - [Upload API](#upload-api)
-  - [Status API](#status-api)
-  - [Webhook API](#webhook-api)
-- [Database Schema](#database-schema)
-  - [Request Collection](#request-collection)
-  - [Product Collection](#product-collection)
-- [Asynchronous Workers Documentation](#asynchronous-workers-documentation)
-- [LLD Draw.io Diagram PDF](#lld-draw.io-diagram-pdf)
 
-## Introduction
+
 
 This project is an image processing system designed to handle CSV files containing product information and associated image URLs. The system performs the following tasks:
 1. Receives and validates CSV files.
@@ -34,19 +18,7 @@ This project is an image processing system designed to handle CSV files containi
 - Webhook notifications upon completion of processing.
 - Clear API endpoints for uploading CSV files and checking processing status.
 
-## Tech Stack
-
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Image Processing**: Sharp
-- **HTTP Requests**: Axios
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Adithyasharma1162/image-processing-from-csv.git
-   cd image-processing-system
+   
 
 ## Configuration
 
@@ -64,16 +36,4 @@ This project is an image processing system designed to handle CSV files containi
    node workers/processImages.js
 ## API Documentation
 
-1: API Documentation PDF Provided in Repository
 
-## Database Schema
-
-1: Database Schema PDF provided in Repository
-
-## Asynchronous Workers Documentation
-
-1: Asynchronous Workers Documentation PDF provided in Repository
-
-# LLD Draw IO
-
-Click the image below to view [LLD.pdf](https://github.com/user-attachments/files/16325981/lld.pdf)
